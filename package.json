@@ -9,13 +9,13 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": ["onStartupFinished"],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "vscode-open-explorer.helloWorld",
-        "title": "Hello World"
+        "command": "extension.openExplorer",
+        "title": "Open Explorer"
       }
     ]
   },
